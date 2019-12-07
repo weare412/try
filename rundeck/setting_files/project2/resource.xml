@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <node name="localhost" description="Rundeck server node" tags="" hostname="localhost" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.9.184-linuxkit" username="rundeck"/>
+  <node name="rundeck_node2" description="rundeck node 2" tags="" hostname="rundeck_node2" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.9.184-linuxkit" username="ruser"/>
+</project>

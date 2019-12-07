@@ -1,0 +1,22 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: a285396f-e3af-4f58-8a60-b3319d66af4b
+  loglevel: INFO
+  name: workflow_job1_test
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - jobref:
+        group: ''
+        name: project1_job1_test
+        uuid: 60225f82-fe5f-4df7-b062-6bd189122ca2
+    - jobref:
+        group: ''
+        name: project2_job1_test
+        project: project2
+        uuid: 6bda5604-c986-473e-9cd0-a34104c9cae5
+    keepgoing: false
+    strategy: node-first
+  uuid: a285396f-e3af-4f58-8a60-b3319d66af4b

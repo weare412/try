@@ -1,0 +1,23 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: 6bda5604-c986-473e-9cd0-a34104c9cae5
+  loglevel: INFO
+  name: project2_job1_test
+  nodeFilterEditable: false
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankOrder: ascending
+      successOnEmptyNodeFilter: false
+      threadcount: '1'
+    filter: rundeck_node2
+  nodesSelectedByDefault: true
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: '''echo "project2_job1_test"'''
+    keepgoing: false
+    strategy: node-first
+  uuid: 6bda5604-c986-473e-9cd0-a34104c9cae5
